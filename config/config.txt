@@ -14,10 +14,10 @@ $include antag_rep.txt
 # There are various options which are hard-locked for security reasons.
 
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'tgstation' with the name of your choice.
- @SERVERNAME Bad Deathclaw TG Edition
+ @SERVERNAME Outcasts: The New Republic
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
- SERVERSQLNAME baddeathclaw
+ SERVERSQLNAME outcastsTNR
 
 ## Station name: The name of the station as it is referred to in-game. If commented out, the game will generate a random name instead.
 STATIONNAME Mojave Wasteland
@@ -175,7 +175,7 @@ VOTE_PERIOD 600
 # DONT_DEL_NEWMOB
 
 ## set a hosted by name for unix platforms
-HOSTEDBY 
+HOSTEDBY Outcast Interactive
 
 ## Set to jobban "Guest-" accounts from Captain, HoS, HoP, CE, RD, CMO, Warden, Security, Detective, and AI positions.
 ## Set to 1 to jobban them from those positions, set to 0 to allow them.
@@ -216,17 +216,16 @@ CHECK_RANDOMIZER
 # SERVER ss13.example.com:2506
 
 ## forum address
-FORUMURL https://discord.gg/BbsYDrR
+FORUMURL https://discord.gg/8gt7DuZ
 
 ## Wiki address
 WIKIURL https://bad-deathclaw.fandom.com/wiki/Bad_Deathclaw_Wiki
 
 ## Rules address
-RULESURL https://discord.gg/ppWGX2j
-
+RULESURL https://discord.gg/8gt7DuZ
 
 ## Github address
-GITHUBURL https://github.com/BadDeathclaw/TG-Claw
+GITHUBURL https://github.com/outcasts-the-new-republic/outcasts-the-new-republic
 
 ## Round specific stats address
 ## Link to round specific parsed logs; IE statbus. It is appended with the RoundID automatically by ticker/Reboot()
